@@ -52,6 +52,7 @@ body h1,h2,h3,h4,h5,h6{
 .navigation-right ul li{
 	display:inline-block;
 }
+<<<<<<< HEAD
 	.navigation-right ul li a {
 		color: #fff;
 		font-size: 1.2em;
@@ -62,6 +63,18 @@ body h1,h2,h3,h4,h5,h6{
 	}
 .navigation-right ul li.active a{
 	color: #00a78e;
+=======
+.navigation-right ul li a{
+	color:#fff;
+    font-size:1em;
+    text-decoration: none;
+    padding: 10px 0;
+	text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation-right ul li.active a{
+	    color: #00a78e;
+>>>>>>> 124ccd0bb4ab0dbd38b02fb9c0643a78ac034ed4
 }
 .tlinks{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 span.menu{
@@ -70,6 +83,7 @@ span.menu{
 /*-- nav-hover --*/
 .link-effect-3 a {
 	padding: 10px 0;
+<<<<<<< HEAD
 	margin: 0 16px;
 	color: #797878;
 	text-shadow: none;
@@ -91,6 +105,28 @@ span.menu{
 		-moz-transition: max-width 0.5s;
 		transition: max-width 0.5s;
 	}
+=======
+	margin: 0 12px;
+	color: #797878;
+	text-shadow: none;
+	position: relative;  
+    font-family: 'Open Sans', sans-serif;
+}
+.link-effect-3 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 10px 0;
+	max-width: 0;
+	border-bottom: 3px solid #00a78e;
+    color: #00a78e;
+	content: attr(data-hover);
+	-webkit-transition: max-width 0.5s;
+	-moz-transition: max-width 0.5s;
+	transition: max-width 0.5s;
+}
+>>>>>>> 124ccd0bb4ab0dbd38b02fb9c0643a78ac034ed4
 .link-effect-3 a:hover::before {
 	max-width: 100%;
 }
